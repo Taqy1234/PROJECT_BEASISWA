@@ -1,0 +1,186 @@
+/* Global reset dan font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu navigasi */
+ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #2980b9;
+    display: flex;
+    justify-content: center;
+}
+
+ul.menu li {
+    margin: 0 15px;
+}
+
+ul.menu a {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+ul.menu a:hover,
+ul.menu a.active {
+    background-color: #3498db;
+    border-bottom: 3px solid white;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #2c3e50;
+}
+
+/* Form container */
+.form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Fieldset dan Legend */
+fieldset {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* Label dan Input */
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="file"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Button group */
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-group button[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+}
+
+.btn-group button[type="submit"]:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.btn-group button[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Warning message */
+.warning {
+    margin-top: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+/* Tabel hasil */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Box list beasiswa */
+.box {
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.box h3 {
+    margin-top: 0;
+    color: #34495e;
+    font-size: 20px;
+}
+
+.scholarship-list {
+    list-style: none;
+    padding: 0;
+}
+
+.scholarship-list li {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    background-color: #ecf0f1;
+    border-left: 5px solid #3498db;
+    border-radius: 6px;
+}
+
+.scholarship-title {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.scholarship-requirement {
+    font-size: 14px;
+    color: #555;
+}
